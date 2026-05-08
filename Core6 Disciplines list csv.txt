@@ -1,0 +1,90 @@
+﻿Name,Classification,Stat,Tags,Description,Range
+Acrobatics,Standard,Physical,"Utility, Movement, Self",Exceptional agility and bodily control. +1 bonus die on balance/climbing/tumbling and allows gap leaping.,Self / Variable
+Agility,Standard,Physical,"Combat, Utility, Self",Gain +1 Movement space. Upgrades add extra Major and Minor Action Points.,Self
+Aid Ally,Standard,Mental,"Support",Mentally guide an ally. Lowers their required Combat Target (CT) for attacks.,4 squares
+Babble Fish,Standard,Social,"Utility",Universally communicate with and understand the spoken language of people and animals.,Hearing distance
+Backstab,Standard,Physical,"Combat, Melee",Gain +2 situational bonus dice on Physical melee attacks against unaware or already engaged targets.,Melee
+Battlefield Reflexes,Standard,Physical,"Combat",Reaction to a ranged attack: immediately move 1 square to cover before the roll.,Self
+Berserker Rage,Standard,Physical,"Combat, Self",Enter a fury to gain +1 attack die and +1 Universal DR but become easier to hit.,Self
+Blast,Standard,"Mental, Social","Combat, Ranged, AoE",Ranged energy burst dealing 1 damage per success to a primary target and adjacent units.,Short (4 squares)
+Brace for Impact,Standard,Physical,"Combat",Take a defensive stance to counter-attack a charging enemy with a +2 attack die bonus.,Melee
+Burrow Mastery,Standard,Physical,"Movement",Burrow underground to become untargetable and unseen.,Self
+Charge,Standard,Physical,"Combat, Melee",Move 3 or more squares to gain a +2 situational bonus dice on a Physical melee attack.,Melee
+Commanding Voice,Standard,Social,"Utility",Inspire allies (+1 bonus die) or intimidate foes (-1 penalty die).,4 squares
+Dark Vision,Standard,Physical,"Self, Utility",Ignore penalties from low light conditions.,Self
+Darkness,Standard,Mental,"Utility",Create a 2x2 square zone of supernatural darkness granting +2 CT Defence to those inside.,2x2 zone on Hero
+Deadly Precision,Standard,Physical,"Combat",Natural 6s on attack rolls deal +1 bonus Physical damage.,Weapon Range
+Death Cultist,Standard,Physical,"Combat, Self",Defy death once per battle. Stand back up with 1 HP and the Shaken condition when reduced to 0 HP.,Self
+Diplomat,Standard,Social,"Utility",Gain +1 bonus die for Social checks like negotiation and persuasion.,Self
+Disguise Mastery,Standard,Social,"Utility",Subtly shift your presence. Gain +1 dice on Social checks for impersonation or disguise.,Self
+Dodge,Standard,Universal,"Combat, Defence",Increases the Combat Target (CT) for incoming attacks by +1.,Self
+Driving & Piloting,Standard,Physical,"Utility",Proficiency in vehicles and mounts. Gain +1 bonus die for piloting/driving checks.,Self
+Entropy Mastery,Standard,Mental,"Combat, Melee, Ranged",Channel elemental energy for a Physical melee attack with +1 bonus attack die.,Melee
+Environmental Mastery,Standard,Physical,"Self",Breathe underwater and ignore all movement penalties from difficult terrain or liquid surfaces.,Self
+Fate Weaver,Standard,Social,"Support",Generate Fate Tokens to modify dice rolls or allow rerolls for yourself or allies.,Self / Allies
+Fear Itself,Standard,Social,"Combat, AoE",Project an aura of dread that inflicts a -1 die penalty to enemy Morale and Rally checks.,Social Stat + 1 radius
+First Aid,Standard,Mental,"Heal",Apply a Heal-over-Time (HoT) effect to an ally and stop ongoing Bleeding or Poison effects.,4 squares
+Grapple Mastery,Standard,Physical,"Combat, Melee",Expert grappling. Requires only 1 success to apply the Grappled condition instead of 2.,Melee
+Green Thumb,Standard,Mental,"Combat, Utility, Support",Influence plant growth. Entangle and immobilize a target for rounds equal to successes plus one.,4 squares
+Heal Ally,Standard,Mental,"Heal",Directly restore 2 HP per success to an ally and stop Bleeding or Poison effects.,4 squares
+Heightened Senses,Standard,Mental,"Utility, Self",Gain +1 dice on perception. Detect hidden/supernatural entities and overcome concealment.,4 squares
+Illusion,Standard,Mental,"Utility, Combat, Support, Ranged",Project vivid illusions into minds to disguise spaces or create false sights/sounds.,Line of sight
+Inflict Fear,Standard,Social,"Combat, Ranged",Unleash a wave of terror forcing enemies to make a Morale Check or become Shaken.,4 squares
+Inflict Lingering Pain,Standard,Mental,"Combat, Ranged",Ranged Mental attack that applies a Damage-over-Time (DoT) effect bypassing DR.,Short (4 squares)
+Invisible,Standard,Mental,"Combat, Utility",Vanish from sight making you untargetable and granting +2 situational dice on your next attack.,Self
+Juggernaut Chassis,Standard,Physical,"Combat, Self, Battlegrounds",Become a Large vehicle/construct immune to control effects. Move 3 with +1 Physical DR.,Self
+Leadership,Standard,Social,"Utility, Self",Project an aura granting allies +1 die on Morale and Rally checks.,Social Stat + 2 radius
+Marksman,Standard,Mental,"Combat, Support",Mark a target so all ranged attacks against it by your team gain +1 attack die.,Line of sight
+Master Defender,Standard,Physical,"Combat, Defence",Reaction to intercept an attack meant for an adjacent ally.,Adjacent (1 square)
+Master Tactician,Standard,Universal,"Combat, Support",Adjacent allies gain +1 situational bonus attack die.,Adjacent (1 square)
+Master Thief,Standard,Physical,"Utility",Gain +1 die for thievery-related checks like lock-picking and pick-pocketing.,Self
+Negate,Standard,Mental,"Utility",Reaction to negate an enemy's Once per Combat Discipline activation.,8 squares
+Negation Shield,Standard,Universal,"Combat, Defence",Automatically negates 1 success from attacks trying to trigger specific effects (e.g. Stun or Grapple).,Self
+Overload,Standard,Mental,"Combat, Support",Psychic attack that Stuns an enemy for rounds equal to successes plus one.,4 squares
+Pack Mentality,Standard,Physical,"Combat, Self",Gain +1 situational bonus attack die on melee attacks for each allied Hero adjacent to the target.,Melee
+Power Strike,Standard,Universal,"Combat",Adds a permanent +1 damage to all successful melee or ranged non-AoE attacks.,Weapon Range
+Protect Ally,Standard,Mental,"Combat, Support, Defence",Project a ward on an ally granting them +1 to their Defence CT against incoming attacks.,4 squares
+Ranged Combat,Standard,Universal,"Combat, Ranged",Allows effective ranged attacks using any Stat without the standard -1 die penalty.,Short (4 squares)
+Regeneration,Standard,Physical,"Combat, Self, Heal",Activate a self-healing Heal-over-Time (HoT) effect.,Self
+Resistance,Standard,Universal,"Combat, Defence",Gain Damage Reduction (DR) 1 against environmental or elemental hazards (fire/acid/etc).,Self
+Scholar,Standard,Mental,"Utility",Gain +1 die for skill checks relating to research lore and history.,Self
+Shield Master,Standard,Physical,"Combat, Defence",Reaction to completely block an incoming attack after the roll is made.,Self
+Silence Protocol,Standard,Mental,"Utility",Create a zone of absolute silence suppressing all sound.,2-square radius on Hero
+Siren's Call,Standard,Social,"Combat, Support",Enthral a target forcing them to move towards you and protect you from attackers.,4 squares
+Smoke Grenade,Standard,Mental,"Combat, Support",Create a 2x2 smoke cloud that inflicts a -1 die penalty on attacks passing through it.,4 squares
+Speed,Standard,Physical,"Movement",Permanently increase base movement speed by +2 squares.,Self
+Steadfast,Standard,Universal,"Self, Defence",Gain +1 dice on all Corruption Morale and Fear Checks.,Self
+Stealth,Standard,Physical,"Combat, Utility",Become unseen and unheard granting a +2 situational bonus die on your next attack.,Self
+Suicide Bomber,Standard,Physical,"Combat, AoE",Detonate upon reaching 0 HP or by choice dealing damage that bypasses DR.,8 adjacent squares
+Survivalist,Standard,Mental,"Utility",Gain +1 bonus dice for survival checks and ignore movement penalties from difficult terrain.,Self
+Sweeping Blow,Standard,Physical,"Combat, Melee",Make a single Physical melee attack against two adjacent enemies with a -1 dice penalty.,Adjacent enemies
+Sword Saint,Standard,Universal,"Melee, Combat",Gain +1 attack die when making melee attacks with a weapon.,Melee
+Tactical Genius,Standard,Physical,"Combat, Melee",Gain +1 situational bonus die on a physical melee attack for each enemy adjacent to you.,Melee
+Taunt,Standard,Social,"Combat, Support",Force a visible enemy to focus their attention and attacks solely on you.,Line of sight
+Tech Wiz,Standard,Mental,"Utility",Gain +1 bonus die for technology-related checks like hacking or repairs.,Self
+Telekinesis,Standard,Mental,"Utility, Combat, Ranged",Interact with objects without touching them using your Mental stat.,Line of sight
+Telepathy,Standard,Mental,"Utility",Reveal surface emotions/thoughts or establish silent mind-to-mind communication.,Line of sight
+Terrorise,Standard,Social,"Combat, Support",Potent fear effect forcing a target to drop actions and flee toward the table edge.,4 squares
+Toughness,Standard,Universal,"Combat, Defence",Gain permanent Damage Reduction (DR) 1 to shrug off incoming damage.,Self
+Trap Mastery,Standard,Mental,"Combat, Utility",Place hidden traps that deal damage bypassing DR and drain AP from enemies who trigger them.,4 squares
+Unarmed Martial,Standard,Physical,"Combat, Melee",Gain +1 Physical attack die when making unarmed melee attacks.,Melee
+Undead,Standard,Physical,"Combat, Self",Immune to Fear/Morale/Taunt. Move reduced to 3. -1 die on Mental/Social disciplines.,Self
+Untouchable,Standard,Physical,"Combat, Defence",Move away from adjacent enemies without provoking Attacks of Opportunity.,Self
+Wall Crawler,Standard,Physical,"Movement",Move freely across vertical surfaces and ceilings at no extra movement cost.,Self
+Web Slinger,Standard,Physical,"Combat, Support",Entangle a target causing the Stunned condition for rounds equal to successes plus one.,Ranged/Melee
+Winged Mastery,Standard,Physical,"Movement",Spend 1 Minor AP to jump 2 squares passing over ground targets and obstacles.,2 squares
+Barbed Skin,Ascendant,Universal,"Combat, Self",Melee attackers automatically take 1 point of damage bypassing DR when they hit you.,Self
+Blood Magic,Ascendant,Mental,"Combat, Ranged, Heal",Sacrifice 1 HP to deal 2 unblockable damage to an enemy or heal 2 HP for an ally.,4 squares
+Dominate,Ascendant,Mental,"Combat, Support",Seize complete control of an enemy's actions and dictate their turns.,8 squares
+Dread Lord,Ascendant,Social,"Combat, Support",Project an intimidating aura that gives adjacent enemies a +1 penalty to their attack/check CT.,Adjacent (1 square)
+Gravity Mastery,Ascendant,Mental,"Combat, Support, AoE",Create a 3x3 heavy gravity zone making it difficult terrain and grounding flying units.,4 squares
+Life Lord,Ascendant,Mental,"Combat, Ranged, Heal",Drain 1 HP per success from an enemy and heal yourself for the same amount bypassing DR.,Short (4 squares)
+Mastermind,Ascendant,Social,"Combat, Support, Summon",Summon 2 Minions to fight by your side.,2 squares
+Not On My Watch,Ascendant,Physical,"Combat, Support",Make a free melee attack against an adjacent enemy that tries to move away.,Adjacent (1 square)
+Oracle,Ascendant,Mental,"Utility, Support",Automatically detect hidden enemies/items and see through illusions. +2 dice to Perception.,12 squares
+Primal Bond,Ascendant,Social,"Summon, Combat, Self, Utility",Summon a loyal bonded animal or creature companion to assist in combat and utility.,Adjacent (1 square)
+Reversal of Fortune,Ascendant,Universal,"Support",Flip every die on any rolled check to its opposite value (e.g. 1 becomes 6).,Line of sight
+Shape Shift,Ascendant,Physical,"Combat, Self, Melee, Movement",Transform into a natural creature gaining situational benefits and skill bonuses.,Self
+Spatial Mastery,Ascendant,Mental,"Combat, Support",Instantly teleport yourself bypassing obstacles and enemies.,4 squares
+Temporal Shift,Ascendant,Mental,"Combat, Support",Manipulate time to grant an ally +1 AP (Hasten) or inflict an enemy with -1 AP (Slow).,4 squares
+Time Lord,Ascendant,Mental,"Combat, Support",Temporarily banish a target from time removing them from the battlefield completely.,Line of sight

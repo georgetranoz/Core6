@@ -1,0 +1,60 @@
+﻿# Core6 Hero Sheet App - Technical Specification v1.2
+## 1. Project Overview & Scope
+A local-first, offline-capable mobile and tablet application for the Core6 RPG system. The app serves as a dynamic character sheet, an XP/respec ledger, and an active combat tool with integrated dice rolling. It heavily supports running multiple heroes simultaneously via rapid context switching.
+**Out of Scope for v1:** Cloud synchronization, GM dashboard, and User Authentication. Data remains strictly local.
+## 2. Core Navigation & Architecture
+ * **Global Header:** Features a Hamburger Menu (top left) for instant Hero switching, alongside critical active stats (HP, AP).
+ * **Tab 1: Combat & Core:** The primary screen used during active encounters.
+ * **Tab 2: Loadout:** Disciplines, Upgrades, and Attunement slots.
+ * **Tab 3: Progression (The Ledger):** XP spending, Respecs, Influence, and Hero background details.
+## 3. Core Features & Views
+### 3.1 The Global Hamburger Menu (Hero Switcher)
+ * Accessible from any screen via the top-left hamburger icon.
+ * Opens a slide-out drawer listing all active Heroes. Displays their avatar, Name, and current HP/Max HP at a glance.
+ * Tapping a Hero instantly swaps the global state (activeHeroId), updating all tabs and headers to that character without losing navigation context.
+ * Includes a persistent + button at the bottom of the drawer to instantly generate a new 0 XP Hero template (Stats: 3/2/2, HP: 5, AP: 2, Move: 4).
+### 3.2 Responsive Active Hero Dashboard
+ * **Mobile View:** Swipeable tabs (Combat, Loadout, Progression).
+ * **Tablet View:** A two-pane layout. Left pane locks the Combat Engine; right pane toggles Loadout, Progression, and Custom Builder.
+ * **Global Header (Active Hero):** Persistent HP (+/- taps), AP pips (tap to spend/refund), Luck Tokens, and Epic Die toggle.
+ * **End Combat Button:** Instantly restores HP and AP to max, and resets "Once per combat" trackers strictly for the *currently active* Hero.
+### 3.3 Integrated Dice Roller & Success Overlay
+ * **The Tap-to-Roll Flow:** 1. User taps the *Dice/Action Icon* next to a Discipline or Stat block.
+   2. Modal requests Situational Bonus Dice (+1 to +3 cap) or Power Strike toggle.
+   3. App calculates the final pool and RNG generates the d6 results.
+ * **The Overlay:** A massive, screen-dominating overlay triggers immediately after the roll.
+   * Displays individual die faces.
+   * Highlights 4, 5, and 6 as hits.
+   * **Massive Text:** "X SUCCESSES" (and "+Y DAMAGE").
+   * Tap anywhere to dismiss.
+### 3.4 Loadout & The Discipline Record Modal
+ * **Tab 2 Overview:** Displays a clean list of the Hero's equipped Disciplines (Slots 1-3, Attunement, Ascendant). Shows only the title, active level, and quick-roll buttons.
+ * **Full Discipline Record (Deep Dive):** Tapping the *Title* or *Info Icon* of any Discipline opens a full-screen or bottom-sheet modal.
+   * **Header:** Discipline Name, Tags (e.g., *Combat, Melee*), and Governing Stat.
+   * **Base Effect:** Full text description of the Level 1 ability.
+   * **Upgrade Path Tree:** A scrollable list of all available upgrades for that specific Discipline.
+   * **Interactive State:** Upgrades already purchased are highlighted. Unpurchased upgrades display their XP cost.
+   * **Quick Buy/Refund:** If the user has enough Current XP, they can purchase the upgrade directly from this modal. They can also tap a "Refund" button on owned upgrades to instantly strip the level and return the XP to their ledger.
+### 3.5 Custom Discipline Builder
+ * **Creation Form:** Name, Description, Tags, Associated Stat, and Base Effect.
+ * **Upgrades List:** Ability to add custom upgrade tiers with specific XP costs.
+ * Saved custom disciplines populate alongside the official roster and support the full Discipline Record Modal view.
+### 3.6 Progression & Respec Engine
+ * **The Ledger:** Tracks Max XP (lifetime) and Current XP (spendable).
+ * **Core Upgrades:** Spend XP to bump Stats or buy +1 HP (5 XP).
+ * **Instant Respec:** The refund logic spans across both the Progression tab and the individual Discipline Record modals to ensure friction-free experimentation.
+## 4. State Management Additions
+```typescript
+interface AppState {
+  heroes: Record<string, Hero>; // Fast dictionary lookup
+  activeHeroId: string | null;
+  setActiveHero: (id: string) => void;
+  
+  // Ledger and Combat actions
+  spendAp: (heroId: string) => void;
+  refundDiscipline: (heroId: string, disciplineId: string) => void;
+  purchaseUpgrade: (heroId: string, disciplineId: string, upgradeId: string, cost: number) => void;
+}
+
+
+```

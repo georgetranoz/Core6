@@ -1,0 +1,368 @@
+﻿DisciplineName,UpgradeName,Description
+Acrobatics,Expert Acrobat,Gain an additional +1 bonus die on all Acrobatics-related checks.
+Acrobatics,Fluid Motion,Reduce the CT for all Acrobatics-related checks by -1.
+Acrobatics,Safe Landing,Reduce all damage taken from falls by an amount equal to your Physical stat.
+Acrobatics,Tumble Dodge,Reaction to move 1 square away without provoking an Attack of Opportunity after successful DC check against damage.
+Acrobatics,Wall Run,Run along vertical surfaces at the cost of 1 additional square of movement per 2 squares horizontal.
+Agility,Agility Level 1,Hero has 1 Major AP and 2 Minor AP.
+Agility,Agility Level 2,Hero has 1 Major AP and 3 Minor AP.
+Agility,Agility Level 3,Hero has 2 Major AP and 3 Minor AP. Allows a second attack.
+Aid Ally,Improved Guidance,Reduce the CT for the activation check by -1.
+Aid Ally,Potent Guidance,The CT reduction granted to the aided ally increases by an additional -1.
+Aid Ally,Additional Use,Gain +1 additional use of this ability per combat.
+Aid Ally,Team Leader,May target +1 additional ally with this ability when activated.
+Babble Fish,Emotional Shift,Subtly shift the emotional tone of your communication towards positive or negative.
+Babble Fish,Rapport,Gain +1 Bonus Dice on Social interaction DC checks once basic communication is established.
+Backstab,Kidney Shot,Gain an additional +1 bonus attack die when Backstabbing.
+Backstab,Accuracy,Gain -1 CT on this attack.
+Backstab,Quick Thinking,You may change the damage type to either Mental or Social on the fly.
+Backstab,Disabling,Target gains Slowed Condition for 1 round (-1 AP).
+Backstab,Poisoned,Target gains the Ill Condition for 1 round (+1 CT to all attacks).
+Battlefield Reflexes,Return Fire Level 1,Reaction to make a single ranged attack back at your attacker at +1 CT penalty.
+Battlefield Reflexes,Dive Further Level 1,Move up to 2 squares instead of 1 when hitting the dirt.
+Battlefield Reflexes,Return Fire Level 2,Return Fire reaction no longer suffers the +1 CT penalty.
+Battlefield Reflexes,Return Fire Level 3,Return Fire reaction gains +1 attack die.
+Battlefield Reflexes,Combat Flow Level 3,Hit the Dirt or Return Fire reactions no longer cost your Major Action on your next turn.
+Berserker Rage,Big Mad,Gain +1 extra round of Rage duration.
+Berserker Rage,Loose Canon,Gain -1 CT for Rage check.
+Berserker Rage,Me Smart,+1 additional Mental DR while raging.
+Berserker Rage,Me Tough,+1 additional Physical DR while raging.
+Berserker Rage,Me No Stink,+1 additional Social DR while raging.
+Blast,Selective Blast,Your blast avoids hitting allies within the splash radius.
+Blast,More Blast,Gain +1 additional use of this ability per combat per upgrade.
+Blast,Deadlier Blast,Reduce CT required to hit by -1 per upgrade.
+Blast,Expanded Blast,Expand the splash radius by 1 square.
+Blast,Range Increase,Increase the range limit by +2 squares.
+Blast,Bigger Boom,Gain +1 dice for this attack.
+Blast,Poison,Deal damage as poison damage (DoT) bypassing DR.
+Blast,Humiliation,Change the damage type to Social on the fly.
+Blast,Puncture,Change the damage type to Physical on the fly.
+Brace for Impact,Reinforced Counter,The free melee counter-attack gains an additional +1 attack die.
+Brace for Impact,Long Pikes,Inflict damage on a target at a range of 2 squares immediately.
+Brace for Impact,Humiliation,Change the damage type to Social on the fly.
+Brace for Impact,Outsmart,Change the damage type to Mental on the fly.
+Burrow Mastery,Ambusher,Perform a reaction attack with +1 die against an enemy that moves adjacent while burrowed.
+Burrow Mastery,Persistent Tunneler,Use Burrow Mastery one additional time per combat.
+Burrow Mastery,Subterranean Movement,Move up to full Move speed underground before emerging.
+Burrow Mastery,Structural Collapse Level 1,Bypass light structure DR by 1 (Universal) when attacking from underneath.
+Burrow Mastery,Structural Collapse Level 2,Bypass medium structure DR by 2 (Universal) when attacking from underneath.
+Burrow Mastery,Structural Collapse Level 3,Bypass structure DR by 3 (Universal) when attacking from underneath.
+Charge,Relentless Momentum,The charge situational bonus increases by +1 attack die.
+Charge,Devastating Impact,The target is thrown 1 square away; hits cause 1 damage to both.
+Charge,Humiliation,Change the damage type to Social on the fly.
+Charge,Outsmart,Change the damage type to Mental on the fly.
+Commanding Voice,More Command,Gain an additional use per combat.
+Commanding Voice,Proficient Command,Reduce the CT for activation by -1.
+Commanding Voice,Commanding Presence Level 1,Target a small group (3-5) or one target at +4 range; Inspire/Intimidate effect increases to +1 automatic success.
+Commanding Voice,Commanding Presence Level 2,Influence a large crowd or pacify a hostile creature out of combat (Social vs. Mental +2 CT).
+Dark Vision,Dark Sight,See in complete darkness including supernatural darkness (Banned in Battlegrounds).
+Dark Vision,Heat Vision,Detect heat signatures through materials up to 1 square deep and gain +1 die to Perception against hidden living targets.
+Darkness,Extended Cast,Place the darkness zone up to 4 squares away.
+Darkness,Expanded Zone,Increase the darkness field by +1 square in any dimension per upgrade.
+Darkness,Efficient Deployment,Reduce the CT required to activate this power by -1.
+Darkness,Mobile Field,The darkness zone now moves with you.
+Deadly Precision,Rupturing Strike Level 1,Rolling two or more natural 6s inflicts Bleeding DoT equal to 50% of damage dealt.
+Deadly Precision,Rupturing Strike Level 2,Bleed triggers on two or more natural 5s or 6s.
+Deadly Precision,Salt the Wound Level 2,All attacks against a target suffering from a Bleed you inflicted deal +1 bonus damage.
+Death Cultist,Vital Resurgence,Return with +2 HP when the base effect triggers.
+Death Cultist,Unholy Resolve,You do not become Shaken when the base effect triggers.
+Diplomat,Expert Diplomat,Gain +1 Dice per upgrade.
+Diplomat,Master Diplomat,Gain -1 Target Number per upgrade.
+Disguise Mastery,Expert Disguise,Gain +1 Dice per upgrade.
+Disguise Mastery,Master Disguise,Gain -1 Target Number per upgrade.
+Dodge,Level 1,Attacker removes 1 die from the attack.
+Dodge,Level 2,Apply an additional +1 CT Dodge.
+Dodge,Level 3,Attacker removes +1 die from the attack.
+Dodge,Level 4,Apply an additional +1 CT Dodge.
+Dodge,Fast Move,Apply an additional +1 CT Dodge bonus specifically against Physical attacks (Trifecta rule).
+Dodge,Popular Kid,Apply an additional +1 CT Dodge bonus specifically against Social attacks (Trifecta rule).
+Dodge,Quick Thinking,Apply an additional +1 CT Dodge bonus specifically against Mental attacks (Trifecta rule).
+Driving & Piloting,Expert Pilot,Gain +1 Dice per upgrade.
+Driving & Piloting,Master Pilot,Gain -1 Target Number per upgrade.
+Entropy Mastery,Reach Level 1,Use as a ranged attack.
+Entropy Mastery,Reach Level 2,Increase the range limit by +2 squares.
+Entropy Mastery,Intensity,Gain +1 attack dice with your entropic attacks per upgrade.
+Entropy Mastery,Focus,Reduce the CT to hit by -1 per upgrade.
+Entropy Mastery,Retaliation,Melee attackers automatically suffer 1 HP damage bypassing DR.
+Environmental Mastery,Amphibious Movement,Move through deep water as normal terrain and gain +2 Move Speed submerged.
+Environmental Mastery,Hostile Environment Adaptation Level 1,Breathe normally in poisonous gas or toxic atmospheres.
+Environmental Mastery,Hostile Environment Adaptation Level 2,Survive indefinitely in the vacuum of space or airless environments.
+Fate Weaver,Diviner,Gain +1 additional use of this ability per combat per upgrade.
+Fate Weaver,Improved Weaving,Gain a -1 CT for check.
+Fear Itself,Expanded Terror,Increase the radius of your dread aura by +1 square per purchase.
+Fear Itself,Crushing Despair,Enemy units within aura cannot benefit from positive modifiers to Morale or Rally checks.
+Fear Itself,Overwhelming Dread,Increase the die penalty inflicted by your aura by an additional -1 die per purchase.
+First Aid,Deft Healing,Reduce CT required for activation by -1.
+First Aid,Added Healing,Target +1 additional ally per upgrade.
+First Aid,Box of Bandages,Gain +1 additional use per combat and +1 bonus die for medical skill checks.
+First Aid,Range Increase,Increase the range limit by +2 squares.
+Grapple Mastery,Sweeping Kick Level 1,Attempt to sweep up to two adjacent targets knocking them Prone (1 AP).
+Grapple Mastery,Sweeping Kick Level 2,Sweeping Kick targets +1 additional adjacent enemy per upgrade.
+Grapple Mastery,Crushing Grip,Deal +1 point of Physical damage bypassing DR upon successful grapple.
+Grapple Mastery,Constricting Hold,Grappled targets suffer +1 penalty to the CT of all actions they attempt.
+Green Thumb,Entangling Vines,Immobilise +1 additional target per upgrade.
+Green Thumb,Improved Growth,Gain a -1 bonus to the CT required.
+Green Thumb,Additional Vines,Gain +1 additional use per combat per upgrade.
+Green Thumb,Extended Range,Extend range by +4 squares.
+Heal Ally,Additional Use,Gain +1 additional use per combat and +1 bonus die for medical checks.
+Heal Ally,Improved Healing,Reduce CT required for activation by -1.
+Heal Ally,Potent Healing,Restore an additional +1 HP per success per upgrade.
+Heal Ally,Extended Range,Increase the range limit by +2 squares.
+Heightened Senses,Possession Detection,Detect if a visible target is possessed or controlled.
+Heightened Senses,Residual Echo,2+ successes grant fragmented sensory impressions from the past.
+Heightened Senses,Extended Range,Gain an additional +4 square range in detection of hidden/supernatural targets.
+Illusion,Mind Burn,1 AP attack causing 1 Mental damage per success against targets perceiving your illusion.
+Illusion,Sharper Images,Gain -1 CT bonus to illusion checks and Mind Burn attacks.
+Illusion,Tactical Illusions Level 1,Create a 4x1 illusion zone acting as an obstacle or difficult terrain.
+Illusion,Tactical Illusions Level 2,Increases illusion size by +2 squares per upgrade.
+Inflict Fear,Additional Use,Gain +1 additional use per combat per purchase.
+Inflict Fear,Expanded Radius,The radius is increased by +2 squares.
+Inflict Lingering Pain,Additional Use,Gain +1 additional use per combat per upgrade.
+Inflict Lingering Pain,Accuracy,Reduce CT required to hit by -1 per upgrade.
+Inflict Lingering Pain,Chain,Affect +1 additional target per upgrade.
+Inflict Lingering Pain,Range Increase,Increase the range limit by +2 squares.
+Invisible,Additional Use,Gain +1 additional use per combat per upgrade.
+Invisible,Effortless Vanishing,Gain +1 automatic success on activation per upgrade.
+Invisible,Shared Cloak,Affect +1 adjacent ally per upgrade.
+Invisible,Attacking While Invisible,You may attack without ending invisibility (requires 2 upgrade investments).
+Juggernaut Chassis,Armour Plating,Increase DR (Physical) by +1.
+Juggernaut Chassis,Extreme Range,Minimum range of 8 squares; calculates range from 12 squares.
+Juggernaut Chassis,Larger,Takes up +1 additional squares.
+Juggernaut Chassis,Firing Ports,Up to 2 units inside transport may use ranged attack at -1 die.
+Juggernaut Chassis,Transport Bay,Carry up to 3 allied units inside hull.
+Juggernaut Chassis,Wall Breacher,Convey troops over fortification walls.
+Leadership,Extended Command,Increase the radius of your Leadership aura by +1 square.
+Leadership,Inspiring Presence,Allies gain an additional +1 die bonus to Morale/Rally Checks (+2 total).
+Leadership,Unflinching Presence,Allies become immune to Fear and Taunt effects.
+Leadership,Sanctified Presence,Aura grants a bonus to Corruption Checks.
+Leadership,Strategic Mastermind,Allies gain +1 bonus to Initiative; activate one additional unit round 1.
+Leadership,Inspiring Command,Spend 1 AP to have an ally automatically succeed a Morale/Rally check (1 use per combat).
+Leadership,Seize the Initiative!,Commander spends Major Action to immediately activate one other friendly unit (1 use per combat).
+Leadership,Martyrdom I,Negates army-wide Morale Check when this unit is reduced to 0 HP or Routs.
+Leadership,Direct the Assault,Commander spends Major Action to give an ally a full turn (1 use per combat).
+Leadership,Martyrdom II,When this unit dies grant allies +1 die bonus to combat rolls for this and next round.
+Marksman,Enhanced Marking,Gain +1 additional use per combat per upgrade.
+Marksman,Sharpshooter,Gain +1 attack die on ranged attacks against your marked target per upgrade.
+Marksman,Target Acquisition,Reduce CT required to hit marked target by -1 per upgrade.
+Marksman,Range Increase,Increase the range limit by +2 squares.
+Marksman,Shared Intel,Allies gain +1 die to Perception checks when tracking your marked target.
+Master Defender,Added Defence Level 1,Each upgrade grants +1 additional use of this ability per round.
+Master Defender,Added Defence Level 2,Each upgrade grants +1 damage resistance when intercepting an attack.
+Master Defender,Guardian Overwatch,Reaction move and attack if an enemy ends turn next to protected ally (costs next round's Major Action).
+Master Tactician,Better Tactics,Increase the bonus attack die granted to adjacent allies by +1 per upgrade.
+Master Tactician,Ranged Tactics,Increase the range of your effect by +1 per upgrade.
+Master Thief,Expert Thief,Gain +1 dice per upgrade.
+Master Thief,Master Thief,Gain -1 Target Number per upgrade.
+Negate,More uses,+1 Use per Combat.
+Negate,Power surge,Gain +1 die bonus on your opposed check to negate.
+Negate,Unravel,Target one ongoing effect and unbind it with a Mental check (Major Action).
+Negate,Psychic Feedback Level 1,Enemy suffers 1 damage per success on opposed check (bypasses DR).
+Negate,Psychic Feedback Level 2,Enemy suffers 2 damage per success on opposed check (bypasses DR).
+Negate,Psychic Feedback Level 3,Enemy suffers 3 damage per success on opposed check (bypasses DR).
+Negation Shield,Physical Negation,+1 success negation against Physical-based effects.
+Negation Shield,Mental Negation,+1 success negation against Mental-based effects.
+Negation Shield,Social Negation,+1 success negation against Social-based effects.
+Overload,Reload,Gain +1 additional use per combat per upgrade.
+Overload,Over Distance,Increase range by +4 squares.
+Overload,Expert Controller,Target +1 additional enemy within 4 squares per upgrade.
+Overload,More Potent,Reduce CT required by -1 per upgrade.
+Overload,Lingering Effect,Increase duration by +1 round.
+Overload,Outsmart,Gain +1 attack die on activation roll per upgrade.
+Overload,Humiliation,Attack is directed at Social rather than Mental.
+Pack Mentality,Fierce Pack,Deal +1 bonus attack die per upgrade level on attacks benefiting from Pack Mentality.
+Power Strike,More Power,Each upgrade grants an additional +1 bonus damage.
+Protect Ally,Thicker Shield,CT defence bonus increases by +1 per upgrade.
+Protect Ally,Greater Protection,Gain +1 additional use per combat per upgrade.
+Protect Ally,Bigger Shield,Target +1 additional ally within 4 squares.
+Ranged Combat,Potent,Gain +1 attack die per upgrade.
+Ranged Combat,Accuracy,Reduce CT required to hit by -1 per upgrade.
+Ranged Combat,Point Blank Shot,No longer suffer penalty from being Threatened or Grappled.
+Ranged Combat,Range Increase,Increase the range limit by +2 squares.
+Ranged Combat,Shotgun Impact,If achieving 2+ successes the target is knocked Prone.
+Ranged Combat,Shotgun Spread,Target +1 additional adjacent enemy.
+Ranged Combat,Suppression Overwatch,When performing Overwatch the target must make a Morale Check.
+Ranged Combat,Humiliation,Change the damage type to Social on the fly.
+Ranged Combat,Outsmart,Change the damage type to Mental on the fly.
+Ranged Combat,Puncture,Change the damage type to Physical on the fly.
+Regeneration,Improved Regeneration,Reduce CT required for activation by -1.
+Regeneration,Additional Use,Gain +1 additional use per combat per upgrade.
+Regeneration,Potent Regeneration,Starting HoT value is increased by +1 per upgrade.
+Resistance,Specialised Resistance,Gain +2 additional DR against a specific environmental/elemental damage type.
+Scholar,Expert Scholar,Gain +1 die per upgrade.
+Scholar,Master Scholar,Gain -1 Target Number per upgrade.
+Shield Master,Additional Use,Each upgrade grants +1 additional use per combat.
+Silence Protocol,Ghost Walk,Allies in zone gain +1 Stealth die and are undetectable by cameras/thermals.
+Silence Protocol,Expand Radius,Increase the radius by +2 squares per upgrade.
+Silence Protocol,Project Effect,Centre the effect up to 4 squares away.
+Siren's Call,Additional Use,Gain +1 additional use per combat per upgrade.
+Siren's Call,Extended Range,Increase range by +4 squares.
+Siren's Call,Chain Lure,Target +1 additional enemy within 4 squares per upgrade.
+Siren's Call,Force of Personality,Gain +1 attack die on activation roll per upgrade.
+Siren's Call,Attraction,Attack is directed at Social rather than Mental.
+Siren's Call,Undying Devotion,Gain +1 CT against Physical attacks while target is adjacent; target takes damage meant for you.
+Smoke Grenade,Extra Munitions,+1 use per combat per upgrade.
+Smoke Grenade,Expanded Cloud,Smoke covers a larger 3x3 area.
+Smoke Grenade,Enhanced Launcher,Deployment range increases by +4 squares.
+Smoke Grenade,Targeting Matrix,Allies ignore the attack die penalty from your smoke.
+Smoke Grenade,Range Increase,Increase the range limit by +2 squares.
+Smoke Grenade,Restorative/Corrosive Cloud,Chosen characters ending turn in smoke regain or suffer 1 HP.
+Smoke Grenade,Dense Obscurant,Attack die penalty increases by an additional -1 die.
+Smoke Grenade,Expert Deployment,Reduce Mental CT check to deploy by -1.
+Speed,Relentless,Each level grants an additional +2 squares of base movement.
+Speed,Momentum,Gain +1 situational bonus die on a melee attack if you move at least 3 squares prior.
+Speed,Skirmisher's Step,Do not provoke Attacks of Opportunity from the first enemy you move away from each turn.
+Speed,Blur of Motion,Enemies have a +1 CT penalty to hit you with ranged attacks if you moved at least 6 squares.
+Steadfast,Unwavering Faith Level 1,Gain an additional +1 dice on all Corruption, Morale, and Fear Checks.
+Steadfast,Unwavering Faith Level 2,Reduce DC of Corruption and Fear/Morale Checks by -1.
+Steadfast,Inner Peace,Reduce Target Number for successes on Corruption/Morale/Fear by -1.
+Stealth,Additional Use,Gain +1 additional use per combat per upgrade.
+Stealth,Padfoot,Reduce CT required for activation by -1.
+Stealth,Improved Stealth,Make attacks without breaking Stealth (requires 2 levels).
+Suicide Bomber,Bigger Charge,Detonation deals an additional +1 damage.
+Suicide Bomber,Demoralise Level 1,Units affected must make a Morale Check.
+Suicide Bomber,Demoralise Level 2,Affected units must make a Morale Check at -1 die.
+Suicide Bomber,Over-packed Casing,Blast radius increases to 2 squares in all directions.
+Suicide Bomber,Humiliation,Change the damage type to Social on the fly.
+Suicide Bomber,Outsmart,Change the damage type to Mental on the fly.
+Survivalist,Expert Survivalist,Gain +1 Dice per upgrade.
+Survivalist,Master Survivalist,Gain -1 Target Number per upgrade.
+Sweeping Blow,Additional Use,Gain +1 additional use per combat per upgrade.
+Sweeping Blow,Accuracy,Gain -1 CT bonus.
+Sweeping Blow,Knockback,Each enemy hit is pushed 1 square away.
+Sweeping Blow,Wide Arc,Target +1 additional adjacent enemy per upgrade.
+Sweeping Blow,Humiliation,Change the damage type to Social on the fly.
+Sweeping Blow,Outsmart,Change the damage type to Mental on the fly.
+Sword Saint,Long Reach,Strike enemies up to 2 squares away.
+Sword Saint,Blade Precision,Enemies suffer a -1 penalty to their CT when defending against your attacks.
+Sword Saint,Focused Form,Gain an additional +1 attack die.
+Sword Saint,Dual Wielding,Make 2 attacks at a +1 CT penalty requiring all AP.
+Sword Saint,Parry,Ready an Action to Parry reducing incoming damage by 1 per success (2 uses per upgrade).
+Sword Saint,Poison Blade,Mental CT 4 attack causing Bleed/Poison DoT (1 use per combat).
+Sword Saint,Humiliation,Change the damage type to Social on the fly.
+Sword Saint,Outsmart,Change the damage type to Mental on the fly.
+Sword Saint,Penetration,Change the damage type to Physical on the fly.
+Tactical Genius,Horde Breaker Level 1,Situational bonus increases by +1 (max +4).
+Tactical Genius,Crowd Surfer Level 1,Move through squares occupied by enemies as difficult terrain.
+Tactical Genius,Horde Breaker Level 2,Situational bonus increases by another +1 (max +5).
+Tactical Genius,Whirlwind Defence Level 2,Gain +1 CT against incoming melee attacks while adjacent to 2+ enemies.
+Taunt,Additional Use,Gain +1 additional use per combat per upgrade.
+Taunt,More Potent,Reduce CT required by -1.
+Taunt,More Annoying,Target +1 additional enemy within 4 squares per upgrade.
+Tech Wiz,Expert Wiz,Gain +1 die per upgrade.
+Tech Wiz,Master Wiz,Gain -1 Target Number per upgrade.
+Telekinesis,Kinetic Attack Level 1,Make a Mental-based ranged attack (CT 4) inflicting Physical damage.
+Telekinesis,Kinetic Attack Level 2,Reduce CT to hit by -1 per upgrade.
+Telekinesis,Alternate Kinetic Attack Level 2,Gain +1 attack die per upgrade on kinetic attacks.
+Telekinesis,Range Increase,Increase the range limit by +2 squares.
+Telepathy,Deep Read Level 1,Focused mental probing for specific surface-level information.
+Telepathy,Memory Control Level 2,Subtly implant or erase short-term memories.
+Terrorise,Additional Terror,Gain +1 additional use per combat per upgrade.
+Terrorise,Extended Range,Increase range by +2 squares.
+Terrorise,More Fearful,Target +1 additional enemy within 4 squares per upgrade.
+Terrorise,Scarier,Reduce CT required by -1 per upgrade.
+Terrorise,Sheer Terror,Gain +1 attack die on activation roll per upgrade.
+Terrorise,Nightmare,Attack is directed at Social rather than Mental.
+Terrorise,Range Increase,Increase the range limit by +2 squares.
+Toughness,Physically Tough,Gain +1 additional point of DR against Physical damage.
+Toughness,Mentally Tough,Gain +1 additional point of DR against Mental damage.
+Toughness,Socially Tough,Gain +1 additional point of DR against Social damage.
+Trap Mastery,Expert Placement,Traps are harder to resist (-1 CT to trigger).
+Trap Mastery,More Traps,Place +1 additional trap marker.
+Trap Mastery,Increased Area,Place traps up to 6 squares away.
+Trap Mastery,Crippling Trap,On trigger the target is knocked Prone.
+Trap Mastery,Lingering Damage,On trigger the target begins Bleeding.
+Trap Mastery,Extra Use,Use Trap Mastery one additional time per combat.
+Unarmed Martial,Hit Harder,Gain an additional +1 attack die per upgrade.
+Unarmed Martial,Deadly Aim,Gain -1 CT for Unarmed Melee attacks.
+Unarmed Martial,Humiliation,Change the damage type to Social on the fly.
+Unarmed Martial,Outsmart,Change the damage type to Mental on the fly.
+Unarmed Martial,Counter-Strike Level 1,Gain +1 CT against Physical melee; ready a counter-strike for 1 Minor AP.
+Unarmed Martial,Flurry of Blows Level 2,Make two separate unarmed attacks with a -1 die penalty (costs all AP).
+Undead,Unnatural Vigor,Removes the base Move Speed penalty restoring normal Move Speed.
+Undead,Soulless Presence,Gain +2 DR specifically against Social damage.
+Undead,Mindless Resilience,Gain +2 DR specifically against Mental damage.
+Undead,Draining Touch,Regain 1 HP when dealing 1+ damage with a melee attack.
+Undead,Terrifying Visage,Living enemies adjacent at end of turn suffer -1 die on next Morale/Rally check.
+Undead,Reclaimed Mind,Removes the -1 dice penalty on your own Mental discipline rolls.
+Undead,Compelling Presence,Removes the -1 dice penalty on your own Social discipline rolls.
+Untouchable,Combat Opportunist,Make up to two Attacks of Opportunity per round.
+Untouchable,Untouchable Presence,Grant adjacent ally immunity to Attacks of Opportunity until next turn (1 minor action).
+Untouchable,Perfect Flow,Move through enemy-occupied squares without stopping treating as difficult terrain (1 use per combat).
+Wall Crawler,Combat Adhesion,Perform attacks and use Disciplines while clinging to walls/ceilings.
+Wall Crawler,Rapid Scramble,Movement speed while wall crawling increases by +2 squares.
+Wall Crawler,Death From Above,Gain +1 bonus attack die when dropping down to make a melee attack.
+Wall Crawler,Effortless Grip,Remain clinging indefinitely without conscious concentration.
+Web Slinger,Extra Web,Gain +1 additional use per combat.
+Web Slinger,Grapple Swing,Move up to 6 squares passing over obstacles (1 AP).
+Web Slinger,Humiliation,Attack is directed at Social rather than Physical.
+Web Slinger,Outsmart,Attack is directed at Mental rather than Physical.
+Web Slinger,Wide Net,Target +1 additional enemy within 4 squares per upgrade.
+Web Slinger,Stronger Web,Duration increased by +1 round.
+Web Slinger,Targeting System,Reduce CT required to hit by -1 per upgrade.
+Web Slinger,Range Increase,Increase the range limit by +4 squares.
+Winged Mastery,Aerial Transport,Carry one willing/incapacitated medium target while flying.
+Winged Mastery,Hover Level 1,Remain airborne at end of turn; immune to non-flying melee attacks.
+Winged Mastery,Dive Bomb Level 2,Gain +1 attack die after moving 3+ squares in a straight line while flying.
+Winged Mastery,Mighty Wings,Jump/Flight movement is increased by +3 squares.
+Barbed Skin,Thorn Damage Level 1,Increase automatic spike damage dealt by +1 (max 3 upgrades).
+Barbed Skin,Thorn Aura Level 2,Adjacent hostile targets take 1 damage at start of turn if they remain adjacent.
+Blood Magic,Vital Surge,Increase total effect to 3 HP (damage or heal).
+Blood Magic,Ritual Expenditure,Sacrifice an additional +1 HP to increase effect by +1.
+Blood Magic,Blood Echo,Regain 2 HP if Blood Magic kills an enemy or saves an ally from 0 HP.
+Dominate,Iron Will,Reduce Target Number for Dominate checks by 1 per purchase.
+Dominate,Enduring Dominion,Gain +1 additional use per combat per purchase.
+Dominate,Apex Subjugator,Gain +1 automatic success against Elite or Boss targets per purchase.
+Dread Lord,Crushing Aura,Increase CT penalty inflicted by aura to -2.
+Dread Lord,Intimidate Level 1,Force adjacent enemies to make opposed check or move away (1 use per combat).
+Dread Lord,Intimidate Level 2,Use Intimidate twice per combat.
+Dread Lord,Dark Domain,Aura affects enemies within 2 squares.
+Gravity Mastery,Anti-gravity field,Targets in zone are lifted unable to move and only targetable by ranged attacks.
+Gravity Mastery,Gravity Shift,Targets entering zone may gain Slowed Condition.
+Gravity Mastery,Levitate,Grant Flight to self or ally in the zone.
+Gravity Mastery,Skystride,Gain Flight (Move 4) for combat; upgrades add +2 Move.
+Gravity Mastery,Expanded Field,Gravity zone becomes 4x4 and may be placed up to 8 squares away.
+Gravity Mastery,Gravitic Recall,Use Gravitic Surge a second time per battle.
+Gravity Mastery,Selective Field,Allies ignore the gravity zone's terrain penalties and effects.
+Life Lord,Renewed Rite,+1 use per combat.
+Life Lord,Life Gift,Transfer healing to an ally within 4 squares instead of yourself.
+Life Lord,Draining Glare,Target suffers -1 CT to all actions until their next turn.
+Life Lord,Efficient Drain,Reduce activation CT by -1 per upgrade.
+Life Lord,Soul Drain,Each success drains +1 HP.
+Mastermind,Tactical Legion,Max Minions increases to 4.
+Mastermind,Hardened Constructs,Minions gain +1 HP and DR 1 (Physical).
+Mastermind,Bladed Servants,Minion attacks become 2d6.
+Mastermind,Unrelenting Swarm,Replace a dead Minion for free once per combat.
+Mastermind,Overlord’s Reach,Summon Minions up to 6 squares away.
+Mastermind,Hated Presence,Minions can Taunt once per combat.
+Not On My Watch,Rooted Strike,If your attack hits the enemy's movement ends.
+Not On My Watch,Battlefield Anchor,Make 2 Opportunity Strikes per round.
+Not On My Watch,Punishing Presence,Strike enemies entering your melee reach as a free action once per turn.
+Not On My Watch,Deep Enmity Level 1,Use 1 AP to Taunt all adjacent enemies (1 use per combat).
+Not On My Watch,Deep Enmity Level 2,Gain +1 use per combat of Deep Enmity.
+Oracle,Keen Focus,Gain +1 dice on Mental DC checks for awareness/investigation.
+Oracle,Eyes of the Battlefield,Dispel stealth/invisibility on visible targets; reveal ghosts.
+Oracle,Precognition Level 1,One visible enemy suffers -1 CT vs. all allies' attacks for 1 round.
+Oracle,Precognition Level 2,CT penalty increases to -2.
+Primal Bond,Primal Bond - Level 2,Strengthen bond via Warrior Stalker Guardian or Enhanced Link paths.
+Primal Bond,Primal Bond - Level 3,Apex bond via Apex Warrior Stalker Guardian Astral Wings or Master Link paths.
+Reversal of Fortune,More Fortunate,+1 use per combat/DC encounter targeting a different roll.
+Shape Shift,Aquatic Form Level 1,Assume aquatic creature shape and breathe underwater.
+Shape Shift,More Shifts Level 1,Shape shift +1 times per scene/combat.
+Shape Shift,Mass Shift Level 1,Change size by one category altering stats.
+Shape Shift,Bear Brother Level 1,Gain DR 1 +2 Physical +5 temp HP and +1 melee damage in Bear Form.
+Shape Shift,Skyshape Level 2,Transform into a flying creature with Flight (Move 4).
+Shape Shift,Apex Predator Level 2,+2 Physical while shifted (stacks with Bear Brother).
+Spatial Mastery,Phase Reach,Teleport range increases +4 squares.
+Spatial Mastery,Displacement Push/Pull,Move target adjacent to you or teleport them up to 4 squares.
+Spatial Mastery,Spatial Swap,Instantly swap places with target or ally.
+Spatial Mastery,Echo Blink,Teleport an additional time per combat/scene.
+Spatial Mastery,Ripple Step,Target +1 unit per upgrade when using Pull/Swap.
+Temporal Shift,Repeat Time,+1 use per combat.
+Temporal Shift,Shiftier,Affect +1 additional target per upgrade.
+Temporal Shift,Space and Time,Increase range by +4 squares per upgrade.
+Temporal Shift,Increase Potency,Hasten grants +2 Move or Slow inflicts -1 attack die.
+Time Lord,Chrono Reserve,+1 use of Temporal Dismissal per battle.
+Time Lord,Unshackled Pulse,Bosses/Elites/Heroes require -1 extra success to resist per upgrade.
+Time Lord,Battlefield Master,Affect +1 additional enemy per use.
+Time Lord,Focus,-1 CT bonus when checking for success.
+Time Lord,Time master,Add +1 duration.
