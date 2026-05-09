@@ -9,7 +9,7 @@ import {
   evaluateUpgrade,
   useAppStore,
 } from '../state/AppState';
-import { ShieldAlert, Info, Dices, ChevronRight, X, Lock, Plus, RotateCcw } from 'lucide-react';
+import { ShieldAlert, Info, ChevronRight, X, Lock, Plus, RotateCcw } from 'lucide-react';
 import { disciplinesData, Discipline } from '../data/disciplines';
 import { upgradesData } from '../data/upgrades';
 import { getBaseDisciplineCost } from '../utils/xpCalculator';
@@ -71,16 +71,6 @@ const LoadoutTab: React.FC<LoadoutTabProps> = ({ hero }) => {
                     <span className="discipline-level">Level {level}</span>
                   </div>
                   <div className="discipline-actions">
-                    <button
-                      className="quick-roll-btn"
-                      onClick={e => {
-                        e.stopPropagation();
-                        // TODO: hook into the dice roller from CombatTab
-                      }}
-                      aria-label={`Quick-roll ${discipline.name}`}
-                    >
-                      <Dices size={16} />
-                    </button>
                     <button className="info-btn" aria-label={`Open ${discipline.name} record`}>
                       <Info size={16} />
                     </button>

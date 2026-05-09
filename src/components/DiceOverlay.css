@@ -118,3 +118,12 @@
     font-size: 2rem;
   }
 }
+
+.target-threshold-label {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  color: var(--accent-primary);
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(255, 71, 87, 0.5);
+  text-align: center;
+}

@@ -112,9 +112,13 @@ const STACKABLE_PATTERNS: RegExp[] = [
   /\bper\s+purchase\b/i,
   /\badditional\s+use\b/i,
   /\bextra\s+use\b/i,
-  /\b\+1\s+additional\s+use\b/i,
-  /\b\+1\s+use\s+per\s+combat\b/i,
+  /\+1\s+additional\s+use\b/i,
+  /\+1\s+use\s+per\s+combat\b/i,
   /\bgrants?\s+\+1\s+additional\b/i,
+  /\+1\s+dice\b/i,
+  /\+1\s+die\b/i,
+  /\+1\s+attack\s+die\b/i,
+  /\+1\s+bonus\s+die\b/i,
 ];
 
 /**

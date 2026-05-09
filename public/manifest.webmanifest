@@ -1,0 +1,26 @@
+{
+  "name": "Core6 Hero Sheet",
+  "short_name": "Core6",
+  "description": "Companion app for the Core6 RPG — build Heroes, track combat, roll dice. Local-first.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0c080a",
+  "theme_color": "#0c080a",
+  "categories": ["games", "entertainment", "utilities"],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

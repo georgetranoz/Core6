@@ -114,6 +114,7 @@ export interface Hero {
   id: string;
   name: string;
   archetype: string;
+  isNewHero: boolean;
   baseStats: BaseStats;
   baseHp: number;
   baseAp: number;
@@ -132,6 +133,8 @@ export interface Hero {
   statuses: { stealth: boolean; cover: boolean; rage: boolean };
   influence: { public: number; underworld: number };
   narrative: { keywords: string; flaws: string; currentGoal: string };
+
+  powerUses: Record<string, boolean[]>;
 
   coreUpgrades: CoreUpgrades;
   /** Per-discipline state, keyed by discipline id. */
@@ -152,24 +155,30 @@ export interface DerivedHero extends Hero {
 /* ---------- Derived stats ---------- */
 
 export const getDerivedHeroStats = (hero: Hero): DerivedHero => {
+  // Defensive fallbacks for missing properties in persisted state
+  const baseStats = hero.baseStats || { physical: 0, mental: 0, social: 0 };
+  const coreUpgrades = hero.coreUpgrades || { vitalityBoost: 0, physicalTraining: 0, mentalFortitude: 0, socialPresence: 0 };
+  const powerUses = hero.powerUses || {};
+  const disciplineState = hero.disciplineState || {};
+
   const stats: BaseStats = {
-    physical: hero.baseStats.physical + hero.coreUpgrades.physicalTraining,
-    mental: hero.baseStats.mental + hero.coreUpgrades.mentalFortitude,
-    social: hero.baseStats.social + hero.coreUpgrades.socialPresence,
+    physical: baseStats.physical + coreUpgrades.physicalTraining,
+    mental: baseStats.mental + coreUpgrades.mentalFortitude,
+    social: baseStats.social + coreUpgrades.socialPresence,
   };
 
-  const maxHp = hero.baseHp + hero.coreUpgrades.vitalityBoost;
-
-  // TODO(derived stats from disciplines): Agility upgrades modify maxAp,
-  // Speed modifies move, Toughness modifies damageReduction. These require
-  // resolved per-upgrade effects which aren't yet captured in the upgrade catalog.
-  const maxAp = hero.baseAp;
-  const move = hero.baseMove;
-  const ct = hero.baseCt;
+  const maxHp = (hero.baseHp || 0) + coreUpgrades.vitalityBoost;
+  const maxAp = hero.baseAp || 0;
+  const move = hero.baseMove || 0;
+  const ct = hero.baseCt || 0;
   const damageReduction = 0;
 
   return {
     ...hero,
+    baseStats,
+    coreUpgrades,
+    powerUses,
+    disciplineState,
     stats,
     maxHp,
     maxAp,
@@ -259,15 +268,18 @@ const createDefaultHero = (): Hero => ({
   baseMove: 4,
   baseCt: 10,
 
+  isNewHero: true,
   hp: 5,
   ap: 2,
 
   xp: { current: STARTING_XP_FOR_NEW_HERO, max: STARTING_XP_FOR_NEW_HERO },
-  luckTokens: 0,
+  luckTokens: 3,
   epicDie: false,
   statuses: { stealth: false, cover: false, rage: false },
   influence: { public: 0, underworld: 0 },
   narrative: { keywords: '', flaws: '', currentGoal: '' },
+
+  powerUses: {},
 
   coreUpgrades: {
     vitalityBoost: 0,
@@ -282,7 +294,7 @@ const createDefaultHero = (): Hero => ({
 /* ---------- Persistence ---------- */
 
 const STORAGE_KEY = 'core6_app_state';
-const SCHEMA_VERSION = 2;
+const SCHEMA_VERSION = 3;
 
 interface PersistedState {
   schemaVersion: number;
@@ -319,7 +331,7 @@ export interface AppState {
   activeHeroId: string | null;
 
   setActiveHero: (id: string) => void;
-  createHero: () => void;
+  createHero: () => string;
   deleteHero: (id: string) => void;
   updateHero: (id: string, updates: Partial<Hero>) => void;
 
@@ -327,6 +339,8 @@ export interface AppState {
   spendAp: (heroId: string) => void;
   adjustHp: (heroId: string, amount: number) => void;
   healMax: (heroId: string) => void;
+  combatReset: (heroId: string) => void;
+  togglePowerUse: (heroId: string, powerId: string, useIndex: number) => void;
 
   // XP
   grantXp: (heroId: string, amount: number) => void;
@@ -388,6 +402,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     const newHero = createDefaultHero();
     setHeroes(prev => ({ ...prev, [newHero.id]: newHero }));
     setActiveHeroId(newHero.id);
+    return newHero.id;
   };
 
   const deleteHero = (id: string) => {
@@ -426,6 +441,22 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     updateOneHero(heroId, hero => {
       const derived = getDerivedHeroStats(hero);
       return { ...hero, hp: derived.maxHp, ap: derived.maxAp };
+    });
+  };
+
+  const combatReset = (heroId: string) => {
+    updateOneHero(heroId, hero => {
+      const derived = getDerivedHeroStats(hero);
+      return { ...hero, hp: derived.maxHp, ap: derived.maxAp, powerUses: {} };
+    });
+  };
+
+  const togglePowerUse = (heroId: string, powerId: string, useIndex: number) => {
+    updateOneHero(heroId, hero => {
+      const currentUses = hero.powerUses[powerId] || [false, false, false];
+      const newUses = [...currentUses];
+      newUses[useIndex] = !newUses[useIndex];
+      return { ...hero, powerUses: { ...hero.powerUses, [powerId]: newUses } };
     });
   };
 
@@ -681,6 +712,8 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     spendAp,
     adjustHp,
     healMax,
+    combatReset,
+    togglePowerUse,
     grantXp,
     purchaseCoreUpgrade,
     refundCoreUpgrade,

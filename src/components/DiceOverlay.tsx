@@ -6,6 +6,7 @@ interface DiceOverlayProps {
   result: {
     successes: number;
     dice: number[];
+    target: number;
   };
   onClose: () => void;
 }
@@ -27,6 +28,8 @@ const DiceOverlay: React.FC<DiceOverlayProps> = ({ result, onClose }) => {
       </div>
       
       <div className="overlay-content">
+        <div className="target-threshold-label">Target: {result.target}+</div>
+        
         <motion.div 
           className="dice-container"
           initial={{ scale: 0.5, opacity: 0 }}
@@ -36,7 +39,7 @@ const DiceOverlay: React.FC<DiceOverlayProps> = ({ result, onClose }) => {
           {result.dice.map((die, i) => (
             <motion.div 
               key={i} 
-              className={`die ${die >= 4 ? 'hit' : 'miss'}`}
+              className={`die ${die >= result.target ? 'hit' : 'miss'}`}
               initial={{ y: -50, opacity: 0, rotate: -45 }}
               animate={{ y: 0, opacity: 1, rotate: 0 }}
               transition={{ delay: i * 0.1, type: "spring" }}
